@@ -28,10 +28,6 @@
     </properties>
     <modules>
         <module>vehicleapi</module>
-        <module>vehicleupdateservice</module>
-        <module>vehiclequeryservice</module>
-        <module>lotqueryservice</module>
-        <module>lotupdateservice</module>
         <module>lotapi</module>
     </modules>
 
@@ -63,21 +59,4 @@
         </repository>
     </distributionManagement>
 
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>com.google.cloud.tools</groupId>
-                    <artifactId>jib-maven-plugin</artifactId>
-                    <version>3.0.0</version>
-                    <configuration>
-                        <skip>true</skip>
-                        <to>
-                            <image>rlkamradt/${project.artifactId}:${project.version}</image>
-                        </to>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
 </project>
