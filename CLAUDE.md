@@ -118,7 +118,7 @@ The project uses GitHub Actions:
 ## Package Distribution
 
 Both API modules are configured to publish to GitHub Packages:
-- Repository: `https://maven.pkg.github.com/rkamradt/vehicleevent`
+- Repository: `https://maven.pkg.github.com/rkamradt/vehicleevent-api`
 - Group ID: `net.kamradtfamily`
 - Artifacts: `vehicleapi` and `lotapi`
 
